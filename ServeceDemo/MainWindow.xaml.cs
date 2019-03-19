@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace ServeceDemo
 {
@@ -23,6 +24,11 @@ namespace ServeceDemo
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BtnRefresh_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("132456");
         }
     }
 }

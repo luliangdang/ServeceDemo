@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:ServeceDemo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Button
+            x:Name="btnRefresh"
+            Height="20"
+            Width="65" Click="BtnRefresh_Click"
+            />
 </Window>
