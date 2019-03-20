@@ -28,7 +28,13 @@ namespace ServeceDemo
 
         private void BtnRefresh_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("132456");
+            Random random = new Random();
+            tbName.Text = random.Next(0,100).ToString();
+        }
+
+        private void btnByCode_Click(object sender, RoutedEventArgs e)
+        {
+            tbName.Text = "后台代码生成";
         }
     }
 }
